@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heitor e Sophia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="conteudo-container" id="home">
+            <div class="casal-icon">
+                <img src="assets/casal_icon.png" alt="Icon Casal" id="casal-icon">
+            </div>
+            <h3>Heitor e Sophia</h3>
+            <div class="buttons">
+                <button class="btn" onclick="tempoJuntos()">Tempo Juntos 💍</button><br>
+                <button class="btn" onclick="tempoConhecemos()">Quanto tempo nos conhecemos ⏱️</button>
+            </div>
+        </div>
+        <div class="conteudo-container" id="container-tempo-juntos">
+            <div class="icon-back">
+                <img src="assets/arrow-back-regular-24.png" alt="Voltar icon" onclick="backHomeTj()" id="icon-back">
+            </div>
+            <h3>Heitor e Sophia</h3>
+            <p id="title-contagem">Estamos juntos há:</p>
+            <div class="tempo-juntos">
+                <p id="ano" class="item-tempo"></p>
+                <p id="meses" class="item-tempo"></p>
+                <p id="dias" class="item-tempo"></p>
+                <p id="horas" class="item-tempo"></p>
+                <p id="minutos" class="item-tempo"></p>
+                <p id="segundos" class="item-tempo">0</p>
+            </div>
+        </div>
+        <div class="conteudo-container" id="container-tempo-conhecendo">
+            <div class="icon-back">
+                <img src="assets/arrow-back-regular-24.png" alt="Voltar icon" onclick="backHomeTj()" id="icon-back">
+            </div>
+            <h3>Heitor e Sophia</h3>
+            <p id="title-contagem">Nos conhecemos há:</p>
+            <div class="tempo-juntos">
+                <p id="ano-conhece" class="item-tempo"></p>
+                <p id="meses-conhece" class="item-tempo"></p>
+                <p id="dias-conhece" class="item-tempo"></p>
+                <p id="horas-conhece" class="item-tempo"></p>
+                <p id="minutos-conhece" class="item-tempo"></p>
+                <p id="segundos-conhece" class="item-tempo"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
