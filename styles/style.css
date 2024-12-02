@@ -35,7 +35,7 @@ body {
 .conteudo-container {
     background-color: var(--background-container);
     display: inline-block;
-    padding: 4vh 0vh;
+    padding: 4vh 1vh;
     border-radius: 2vh;
     box-shadow: var(--box-shadow);
     width: 55vh;
