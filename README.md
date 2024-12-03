@@ -2,6 +2,8 @@
 
 ### 💌 Contador de Tempo com o tema "Tempo do Relacionamento"
 
+### 🌐 Acesse em: https://tempo-relacionamento.vercel.app/
+
 ## ⚙ PRINCIPAIS FUNCIONALIDADES:
 
 - Ao clicar em "Tempo Juntos", irá aparecer um campo que mostra o tempo que o casal está junto. Quantos anos, meses, dias, horas, minutos e segundos
